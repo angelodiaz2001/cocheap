@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 Comparador de Precios Colombia
 
-## Getting Started
+Aplicación web moderna para comparar precios de productos entre **MercadoLibre** y **Falabella** en Colombia.
 
-First, run the development server:
+## ✨ Características
+
+- 🔍 **Búsqueda simultánea** en múltiples tiendas online
+- 💰 **Destacado del mejor precio** automático
+- 🏪 **Logos visuales** por tienda (MercadoLibre / Falabella)
+- 📱 **Diseño responsive** (móvil, tablet, desktop)
+- ⚡ **Next.js 16** con TypeScript
+- 🎨 **Tailwind CSS** + shadcn/ui components
+- 🌐 **Scraping inteligente** con Cheerio y Axios
+
+## 🚀 Inicio Rápido
+
+### Instalación
+
+```bash
+npm install
+```
+
+### Configuración
+
+Crea un archivo `.env.local` con las credenciales de MercadoLibre (opcional para OAuth):
+
+```env
+MELI_CLIENT_ID=tu_client_id
+MELI_CLIENT_SECRET=tu_client_secret
+MELI_REDIRECT_URI=https://tu-dominio.com/ml/callback
+```
+
+### Desarrollo
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Producción
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## 📁 Estructura del Proyecto
 
-To learn more about Next.js, take a look at the following resources:
+```
+comparador-web/
+├── src/
+│   ├── app/
+│   │   ├── api/
+│   │   │   ├── search/        # Endpoint principal de búsqueda
+│   │   │   ├── debug/         # Endpoints de debug
+│   │   │   └── ml/            # OAuth MercadoLibre
+│   │   ├── page.tsx           # Frontend principal
+│   │   └── layout.tsx
+│   ├── lib/
+│   │   └── scrapers/
+│   │       ├── mercadolibre.ts  # Scraper de MercadoLibre
+│   │       └── falabella.ts     # Scraper de Falabella
+│   └── components/ui/         # Componentes shadcn/ui
+├── public/icons/              # Logos de tiendas
+└── .env.local                 # Variables de entorno
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔌 API Endpoints
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Búsqueda de productos
+```http
+GET /api/search?q=iphone
+```
 
-## Deploy on Vercel
+**Respuesta:**
+```json
+{
+  "items": [...],
+  "cheapest": {...},
+  "stats": {
+    "total": 20,
+    "mercadolibre": 10,
+    "falabella": 10
+  }
+}
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Debug Falabella
+```http
+GET /api/debug/falabella?q=laptop
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ Tecnologías
+
+- **Frontend**: Next.js 16, React 19, TypeScript, Tailwind CSS
+- **Backend**: Next.js API Routes
+- **Scraping**: Cheerio (HTML parsing), Axios (HTTP requests)
+- **UI**: shadcn/ui, Lucide Icons
+- **Deploy**: Vercel (recomendado)
+
+## 📝 Próximas Funcionalidades
+
+- [ ] Agregar más tiendas (Éxito, Alkosto, Linio)
+- [ ] Historial de precios con gráficas
+- [ ] Alertas de precio
+- [ ] Filtros avanzados (marca, categoría, precio)
+- [ ] Comparación lado a lado
+- [ ] Base de datos SQLite para métricas
+
+## 🤝 Contribuir
+
+Las contribuciones son bienvenidas. Por favor abre un issue primero para discutir cambios mayores.
+
+## 📄 Licencia
+
+MIT
+
+---
+
+**Hecho con ❤️ en Colombia**
+# cocheap

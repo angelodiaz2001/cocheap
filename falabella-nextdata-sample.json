@@ -1,0 +1,158 @@
+{
+  "productId": "147127506",
+  "skuId": "147127507",
+  "topSpecifications": [],
+  "displayName": "Buso capota cerrado masculino fit oversize con bolsillo Hombre",
+  "productType": "REGULAR",
+  "viewTemplate": "NORMAL",
+  "url": "https://www.falabella.com.co/falabella-co/product/147127506/KOAJ-Buso-capota-cerrado-masculino-fit-oversize-con-bolsillo-Hombre",
+  "brand": "KOAJ",
+  "media": {
+    "id": "147127507",
+    "type": "PRODUCT",
+    "onImageHover": "FETCH_SECOND_IMAGE"
+  },
+  "mediaUrls": [
+    "https://media.falabella.com.co/falabellaCO/147127507_01/public",
+    "https://media.falabella.com.co/falabellaCO/147127507_02/public",
+    "https://media.falabella.com.co/falabellaCO/147127507_03/public",
+    "https://media.falabella.com.co/falabellaCO/147127507_04/public",
+    "https://media.falabella.com.co/falabellaCO/147127507_05/public"
+  ],
+  "measurements": {},
+  "badges": [],
+  "multipurposeBadges": [],
+  "meatStickers": [],
+  "prices": [
+    {
+      "label": "",
+      "icons": "",
+      "symbol": "$ ",
+      "crossed": false,
+      "type": "internetPrice",
+      "price": [
+        "89.900"
+      ]
+    }
+  ],
+  "availability": {
+    "homeDeliveryShipping": "",
+    "pickUpFromStoreShipping": "",
+    "internationalShipping": "",
+    "primeShipping": "",
+    "expressShipping": ""
+  },
+  "variants": [
+    {
+      "type": "COLOR",
+      "options": [
+        {
+          "label": "Marfil",
+          "url": "https://www.falabella.com.co/falabella-co/product/147127506/KOAJ-Buso-capota-cerrado-masculino-fit-oversize-con-bolsillo-Hombre/147127507",
+          "value": "FFF0C9",
+          "extraInfo": "147127507",
+          "mediaId": "147127507",
+          "selected": true,
+          "sizes": [
+            {
+              "value": "XS",
+              "sizeOrder": 0,
+              "available": true,
+              "variant": "147127507",
+              "prices": [
+                {
+                  "label": "",
+                  "icons": "",
+                  "symbol": "$ ",
+                  "crossed": false,
+                  "price": [
+                    "89.900"
+                  ]
+                }
+              ],
+              "offeringId": "147127507",
+              "mediaUrls": [
+                "https://media.falabella.com.co/falabellaCO/147127507_01/public",
+                "https://media.falabella.com.co/falabellaCO/147127507_02/public",
+                "https://media.falabella.com.co/falabellaCO/147127507_03/public",
+                "https://media.falabella.com.co/falabellaCO/147127507_04/public",
+                "https://media.falabella.com.co/falabellaCO/147127507_05/public"
+              ]
+            },
+            {
+              "value": "S",
+              "sizeOrder": 1,
+              "available": true,
+              "variant": "147127508",
+              "prices": [
+                {
+                  "label": "",
+                  "icons": "",
+                  "symbol": "$ ",
+                  "crossed": false,
+                  "price": [
+                    "89.900"
+                  ]
+                }
+              ],
+              "offeringId": "147127508",
+              "mediaUrls": [
+                "https://media.falabella.com.co/falabellaCO/147127508_01/public",
+                "https://media.falabella.com.co/falabellaCO/147127508_02/public",
+                "https://media.falabella.com.co/falabellaCO/147127508_03/public",
+                "https://media.falabella.com.co/falabellaCO/147127508_04/public",
+                "https://media.falabella.com.co/falabellaCO/147127508_05/public"
+              ]
+            },
+            {
+              "value": "M",
+              "sizeOrder": 2,
+              "available": true,
+              "variant": "147127509",
+              "prices": [
+                {
+                  "label": "",
+                  "icons": "",
+                  "symbol": "$ ",
+                  "crossed": false,
+                  "price": [
+                    "89.900"
+                  ]
+                }
+              ],
+              "offeringId": "147127509",
+              "mediaUrls": [
+                "https://media.falabella.com.co/falabellaCO/147127509_01/public",
+                "https://media.falabella.com.co/falabellaCO/147127509_02/public",
+                "https://media.falabella.com.co/falabellaCO/147127509_03/public",
+                "https://media.falabella.com.co/falabellaCO/147127509_04/public",
+                "https://media.falabella.com.co/falabellaCO/147127509_05/public"
+              ]
+            }
+          ],
+          "isPurchaseable": true,
+          "variant": "147127507",
+          "offeringId": "147127507",
+          "mediaUrls": [
+            "https://media.falabella.com.co/falabellaCO/147127507_01/public",
+            "https://media.falabella.com.co/falabellaCO/147127507_02/public",
+            "https://media.falabella.com.co/falabellaCO/147127507_03/public",
+            "https://media.falabella.com.co/falabellaCO/147127507_04/public",
+            "https://media.falabella.com.co/falabellaCO/147127507_05/public"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "SIZES",
+      "options": []
+    }
+  ],
+  "sellerId": "SC36A3B",
+  "sellerName": "Koaj",
+  "offeringId": "147127507",
+  "isSponsored": false,
+  "GSCCategoryId": "G08020502",
+  "promotions": [],
+  "installmentsWithoutInterest": []
+}
